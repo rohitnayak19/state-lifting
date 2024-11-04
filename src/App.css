@@ -1,0 +1,53 @@
+/* App container */
+div {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Title of the accordion */
+h2 {
+  text-align: center;
+  color: #f7eded;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Panel header */
+h3 {
+  font-size: 1.2rem;
+  color: #444;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+h3:hover {
+  background-color: #ddd;
+}
+
+/* Content of the panel */
+p {
+  background-color: #fafafa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+  margin: 0;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
